@@ -5,15 +5,11 @@ import {
 } from '@angular/router';
 
 import {TestPageComponent} from './test-page/test-page.component';
-import {TestPageResolver} from './test-page/test-page.resolver';
 
 const routes: Routes = [
   {
     path: '',
-    component: TestPageComponent,
-    resolve: {
-      data: TestPageResolver
-    }
+    component: TestPageComponent
   }
 ];
 
