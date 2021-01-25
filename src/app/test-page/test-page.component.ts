@@ -11,7 +11,7 @@ import {
 export class TestPageComponent implements OnInit {
   initializing = false;
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.initializing = true;
 
     setTimeout(() => {
